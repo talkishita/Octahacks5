@@ -1,8 +1,9 @@
 import React from 'react';
+import Landing from './sections/Landing';
 function App() {
   return (
-    <div className='text-5xl font-bold flex flex-row h-full justify-center items-center'>
-      Octahacks 5 : Coming Soon
+    <div>
+      <Landing />
     </div>
   );
 }
