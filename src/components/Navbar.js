@@ -8,7 +8,7 @@ function Navbar(){
         <nav className="relative px-4 py-4 flex justify-between items-center">
           <div className="flex items-center justify-center w-28 h-full ml-2">
         <a className="text-3xl font-bold leading-none" href="#">
-          <img src={logo} class="w-52 h-12" alt="gdsc"/>
+          <img src={logo} class="w-56 h-12" alt="gdsc"/>
         </a>
         </div>
         <div className="lg:hidden">

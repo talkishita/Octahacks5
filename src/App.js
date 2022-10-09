@@ -6,7 +6,7 @@ import Prizes from './pages/Prizes'
 function App() {
   return (
     <>
-      <section class="h-screen w-screen">
+      <section class="h-screen w-screen debug-screens">
       <div>
       <Navbar/>
       </div>
