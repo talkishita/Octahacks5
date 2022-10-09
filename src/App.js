@@ -1,5 +1,5 @@
 import React from 'react';
-import Landing from './sections/Landing';
+import Landing from './sections/Landing/Landing';
 import Tracks from './sections/Track/Track';
 function App() {
   return (
