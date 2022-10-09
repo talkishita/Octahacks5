@@ -1,9 +1,11 @@
 import React from 'react';
 import Landing from './sections/Landing';
+import Tracks from './sections/Track/Track';
 function App() {
   return (
     <div>
-      <Landing />
+      <Landing/>
+      <Tracks />
     </div>
   );
 }
