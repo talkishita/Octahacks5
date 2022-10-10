@@ -68,17 +68,12 @@
 
 /*---------------------- right section css  --------------------*/
 .mainCards{
-    padding: 100px 0px; 
     min-width: 50vw;
     
 }
 .cardsContainer{
-    border: 0.1px solid gray;
-    /* border-right: 0; */
     max-width: 44vw;
     max-height: 110vh;
-    overflow: scroll;
-    /* border-bottom: 0; */
 }
 .cardsContainer::-webkit-scrollbar {
     display: none;
@@ -96,24 +91,7 @@ scrollbar-width: none;  /* Firefox */
     }
 }
 
-.cards{
-    display: flex;
-    justify-content: center;
-    align-items: top;
-}
 
-.cards .leftSection{
-    padding: 35px 50px 45px 40px;
-    width: 50%;
-    /* text-align: center; */
-
-}
-.safeDiv{
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    gap:100px;
-}
 .para{
     line-height: 15px;
     font-size: 12px;
