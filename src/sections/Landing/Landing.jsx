@@ -1,24 +1,19 @@
 import React from 'react';
 import ApplyButton from './ApplyButton';
-
+// import backVideo from '../../assets/backVideo.gif';
 const Landing = () => {
   return (
-    // <div className='font-azonix bg-[url(https://im4.ezgif.com/tmp/ezgif-4-5b32c07892.gif)] w-full h-full min-h-screen bg-cover bg-center text-gray-200'>
-    <div className='font-azonix bg-[url(https://im4.ezgif.com/tmp/ezgif-4-99b1d043cb.gif)] w-full h-full min-h-screen bg-cover bg-center text-gray-200'>
+    <div className='font-azonix bg-[url(https://github.com/ikaushiksharma/WhatsApp_Ui/blob/master/backVideo.gif?raw=true)] w-full h-full min-h-screen bg-cover bg-center text-gray-200'>
       <div className='fixed w-full h-fit z-20 bg-gradient-to-b from-black'>
         <nav className='flex flex-row justify-between mx-10 mt-2 items-center'>
-          <div className='flex justify-evenly items-center'>
+          <div className='flex justify-evenly w-4/6 items-center'>
             <div className='w-1/6'>
-              <img
-                src='https://octahacks4.tech/assets/media/octahackslogo_svg.svg'
-                alt=''
-                srcset=''
-              />
+              <img src='../../assets/logo.png' alt='' srcset='' />
             </div>
-            <div className='mx-5 text-lg'>About Us</div>
-            <div className='mx-5 text-lg'>Tracks</div>
-            <div className='mx-5 text-lg'>Prices</div>
-            <div className='mx-5 text-lg'>Our Sponsers</div>
+            <div className='mx-5 text-lg'>Home</div>
+            <div className='mx-5 text-lg'>About</div>
+            <div className='mx-5 text-lg'>Contact</div>
+            {/* <div className='mx-5 text-lg'>Our Sponsers</div> */}
           </div>
           <ApplyButton />
         </nav>
@@ -38,7 +33,7 @@ const Landing = () => {
               alt='gdsc logo'
             />
           </div>
-          <div className='w-2/3 text-9xl p-10'>
+          <div className='w-2/3 md:text-6xl text-9xl p-10'>
             Octahacks <br /> Five
           </div>
           <div className='w-1/12 m-10 border-white border-2'></div>

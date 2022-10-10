@@ -2,12 +2,12 @@ import React from 'react'
 
 const Cards = () => {
     return (
-        <div className='mainCards'>
-            <div className='cardsContainer'>
+        <div className='mainCards py-24'>
+            <div className='cardsContainer border border-neutral-500 overflow-scroll'>
                 {/* Cards 1  */}
-                <div className='cards'>
-                    <div className="leftSection">
-                        <div className='safeDiv'>
+                <div className='cards flex justify-center align-top'>
+                    <div className="leftSection w-1/2 pt-9 pr-12 pb-11 pl-10">
+                        <div className='safeDiv flex align-middle justify-start gap-24'>
                             <p className="titlePara">SMART CITY</p>
                             <p className="number">1</p>
                         </div>
@@ -27,9 +27,9 @@ const Cards = () => {
                 </div>
                 {/* cards 1 end  */}
                 {/* Cards 2  */}
-                <div className='cards '>
-                    <div className="leftSection">
-                        <div className='safeDiv'>
+                <div className='cards flex justify-center align-top'>
+                    <div className="leftSection w-1/2 pt-9 pr-12 pb-11 pl-10">
+                        <div className='safeDiv flex align-middle justify-start gap-28'>
                             <p className="titlePara">Security</p>
                             <p className="number">2</p>
                         </div>
@@ -46,9 +46,9 @@ const Cards = () => {
                 </div>
                 {/* cards 2 end  */}
                 {/* Cards 3  */}
-                <div className='cards'>
-                    <div className="leftSection">
-                        <div className='safeDiv'>
+                <div className='cards flex justify-center align-top'>
+                    <div className="leftSection w-1/2 pt-9 pr-12 pb-11 pl-10">
+                        <div className='safeDiv flex align-middle justify-start gap-24'>
                             <p className="titlePara">fintech</p>
                             <p className="number">3</p>
                         </div>
@@ -64,9 +64,9 @@ const Cards = () => {
                 </div>
                 {/* cards 3 end  */}
                 {/* Cards 4  */}
-                <div className='cards '>
-                    <div className="leftSection">
-                        <div className='safeDiv'>
+                <div className='cards flex justify-center align-top'>
+                    <div className="leftSection w-1/2 pt-9 pr-12 pb-11 pl-10">
+                        <div className='safeDiv flex align-middle justify-start gap-24'>
                             <p className="titlePara">health</p>
                             <p className="number">4</p>
                         </div>
@@ -84,9 +84,9 @@ const Cards = () => {
                 </div>
                 {/* cards 4 end  */}
                 {/* Cards 5  */}
-                <div className='cards'>
-                    <div className="leftSection">
-                        <div className='safeDiv'>
+                <div className='cards flex justify-center align-top'>
+                    <div className="leftSection w-1/2 pt-9 pr-12 pb-11 pl-10">
+                        <div className='safeDiv flex align-middle justify-start gap-24'>
                             <p className="titlePara">business</p>
                             <p className="number">5</p>
                         </div>
@@ -105,9 +105,9 @@ const Cards = () => {
                 </div>
                 {/* cards 5 end  */}
                 {/* Cards 6  */}
-                <div className='cards '>
-                    <div className="leftSection">
-                        <div className='safeDiv'>
+                <div className='cards flex justify-center align-top'>
+                    <div className="leftSection w-1/2 pt-9 pr-12 pb-11 pl-10">
+                        <div className='safeDiv flex align-middle justify-start gap-24'>
                             <p className="titlePara">Woman security</p>
                             <p className="number">6</p>
                         </div>
@@ -125,9 +125,9 @@ const Cards = () => {
                 </div>
                 {/* cards 6 end  */}
                 {/* Cards 7  */}
-                <div className='cards'>
-                    <div className="leftSection">
-                        <div className='safeDiv'>
+                <div className='cards flex justify-center align-top'>
+                    <div className="leftSection w-1/2 pt-9 pr-12 pb-11 pl-10">
+                        <div className='safeDiv flex align-middle justify-start gap-24'>
                             <p className="titlePara">Environment</p>
                             <p className="number">7</p>
                         </div>
@@ -143,9 +143,9 @@ const Cards = () => {
                 </div>
                 {/* cards 7 end  */}
                 {/* Cards 8  */}
-                <div className='cards '>
-                    <div className="leftSection">
-                        <div className='safeDiv'>
+                <div className='cards flex justify-center align-top'>
+                    <div className="leftSection w-1/2 pt-9 pr-12 pb-11 pl-10">
+                        <div className='safeDiv flex align-middle justify-start gap-24'>
                             <p className="titlePara">education</p>
                             <p className="number">8</p>
                         </div>
