@@ -38,7 +38,7 @@ const Cards = () => {
                             the increased use of automated
                             technologies is also driving an increase in
                             the advancement of the need for proper
-                            security systems.</p>
+                            security systems. </p>
                     </div>
                     <div>
                         <img src={require("../../assets/2nd.png")} alt='image1' />

@@ -12,6 +12,7 @@ const Text = () => {
                     {/* <p className='p'>Safeguard</p> */}
                     {/* <p className='textpara'></p> */}
                         <br/>
+                        
                 <p className='textpara text-sm'>As the name suggests, Octahacks comprises 8 themes or impact areas to help spark your ideas. Remember that you're welcome to build the prototype with the technologies of
                         your choice, so feel free to use any technology and think outside the box too!</p>
                 </div>
