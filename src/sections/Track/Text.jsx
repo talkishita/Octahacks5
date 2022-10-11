@@ -1,8 +1,8 @@
 import React from 'react'
-
+// p-24 mt-28
 const Text = () => {
     return (
-        <div className='textContainer  z-50 flex flex-col gap-10 p-24 mt-28'>
+        <div className='textContainer  z-50 flex flex-col gap-10 justify-center align-middle p-24'>
             {/* <p className='text'>Building a gaming ecosystem that's truly</p> */}
             <p className='title leading-10 font-semibold text-4xl'>TRACKS</p>
             {/* <p className='title'>SUSTAINABLE</p> */}

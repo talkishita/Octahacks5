@@ -4,7 +4,7 @@ import Tracks from './sections/Track/Track';
 function App() {
   return (
     <div>
-      <Landing/>
+      {/* <Landing/> */}
       <Tracks />
     </div>
   );

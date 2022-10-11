@@ -1,4 +1,9 @@
 
+.tracksContainer{
+    min-height: 100vh;
+}
+
+
 @media screen and (max-width:989px){
     .tracksContainer{
         flex-direction: column;
@@ -46,7 +51,12 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
-
+@media screen and (max-width:994px){
+    .textContainer{
+        padding: 50px 20px;
+        min-height: 80vh;
+    }
+}
 @media screen and (max-width:594px){
     .textContainer{
         padding: 50px 20px;
@@ -74,7 +84,7 @@
 }
 .cardsContainer{
     max-width: 44vw;
-    max-height: 110vh;
+    max-height: 73vh;
 }
 .cardsContainer::-webkit-scrollbar {
     display: none;
