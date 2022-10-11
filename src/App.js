@@ -1,7 +1,9 @@
 import React from 'react';
 import AnimatedCursor from 'react-animated-cursor';
+import Judges from './sections/Judges';
 
 import Landing from './sections/Landing/Landing';
+import Mentors from './sections/Mentors';
 import Prizes from './sections/Prizes';
 import Tracks from './sections/Track/Track';
 function App() {
@@ -64,6 +66,8 @@ function App() {
         <Landing />
         <Tracks />
         <Prizes />
+        <Judges />
+        <Mentors />
       </div>
     </div>
   );

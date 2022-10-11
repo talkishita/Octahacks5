@@ -2,9 +2,9 @@ import React from 'react';
 
 function Prizes() {
   return (
-    <div className='min-h-screen bg-slate-900 bg-[url(https://github.com/ikaushiksharma/WhatsApp_Ui/blob/master/backVideo2.gif?raw=true)] bg-no-repeat bg-contain grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3 lg:w-[91%] xl:w-[92%] xl:h-[84%] lg:h-[84%] h-[88%] p-2'>
+    <div className='min-h-screen bg-slate-900 bg-[url(https://github.com/ikaushiksharma/WhatsApp_Ui/blob/master/backVideo2.gif?raw=true)] bg-no-repeat bg-contain grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-full xl:h-[84%] lg:h-[84%] h-[88%] p-2'>
       <div className='flex flex-col justify-center items-center backdrop-blur-lg bg-black/30'>
-        <div className='p-2 flex flex-col justify-center items-center '>
+        <div className='p-2 flex flex-col justify-center items-center'>
           <div className='md:w-full lg:w-[88%] h-full flex flex-col justify-center items-start text-white bg-transparent mb-[4px] cursor-pointer space-y-4'>
             <h2 className='text-[1.2rem] lg:text-[1.3rem] xl:text-[1.6rem] font-medium'>
               'TECH IT EASY'
