@@ -1,11 +1,9 @@
 import React from 'react';
-import Landing from './sections/Landing';
-import Tracks from './sections/Track/Track';
+import Sponsors from './sections/Sponsers';
 function App() {
   return (
     <div>
-      <Landing/>
-      <Tracks />
+      <Sponsors/>
     </div>
   );
 }
