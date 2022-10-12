@@ -27,25 +27,25 @@ function Prizes() {
           <div className='w-full h-full flex flex-col justify-center items-center text-white bg-transparent p-2 cursor-pointer'>
             <h2 className='text-xl font-semibold p-[2%]'>Winner</h2>
             <h1 className='text-[2rem] font-black'>₹ 15,000 *</h1>
-            <p className='text-[1rem]'>+Goodies worth upto</p>
+            <p className='text-[.5rem] lg:text-[.8rem]'>+Goodies worth upto</p>
             <p>₹ 1 Lakh</p>
           </div>
           <div className='w-full h-full flex flex-col justify-center items-center text-white bg-transparent p-2 cursor-pointer'>
             <h2 className='text-xl font-semibold p-[2%]'>Winner</h2>
             <h1 className='text-[2rem] font-black'>₹ 15,000 *</h1>
-            <p className='text-[1rem]'>+Goodies worth upto</p>
+            <p className='text-[.5rem] lg:text-[.8rem]'>+Goodies worth upto</p>
             <p>₹ 1 Lakh</p>
           </div>
           <div className='w-full h-full flex flex-col justify-center items-center text-white bg-transparent p-2 cursor-pointer'>
             <h2 className='text-xl font-semibold p-[2%]'>Winner</h2>
             <h1 className='text-[2rem] font-black'>₹ 15,000 *</h1>
-            <p className='text-[1rem]'>+Goodies worth upto</p>
+            <p className=' text-[.5rem] lg:text-[.8rem]'>+Goodies worth upto</p>
             <p>₹ 1 Lakh</p>
           </div>
           <div className='w-full h-full flex flex-col justify-center items-center text-white bg-transparent p-2 cursor-pointer'>
             <h2 className='text-xl font-semibold p-[2%]'>Winner</h2>
             <h1 className='text-[2rem] font-black'>₹ 15,000 *</h1>
-            <p className='text-[1rem]'>+Goodies worth upto</p>
+            <p className='text-[.5rem] lg:text-[.8rem]'>+Goodies worth upto</p>
             <p>₹ 1 Lakh</p>
           </div>
         </div>
