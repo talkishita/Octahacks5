@@ -4,8 +4,8 @@ function Prizes() {
   return (
     <div id="prizes" className='min-h-screen bg-slate-900 bg-[url(https://github.com/ikaushiksharma/WhatsApp_Ui/blob/master/backVideo2.gif?raw=true)] bg-no-repeat bg-contain grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-full xl:h-[84%] lg:h-[84%] h-[88%] p-2'>
       <div className='flex flex-col justify-center items-center backdrop-blur-lg bg-black/30'>
-        <div className='p-2 flex flex-col justify-center items-center'>
-          <div className='md:w-full lg:w-[88%] h-full flex flex-col justify-center items-center md:items-start text-white bg-transparent mb-[4px] cursor-pointer space-y-4'>
+        <div className='p-2 flex flex-col justify-center items-center lg:ml-4'>
+          <div className='md:w-full lg:w-[88%] h-full flex flex-col justify-center items-center md:items-start text-white bg-transparent  cursor-pointer space-y-4 '>
             <h2 className='text-[1.2rem] lg:text-[1.3rem] xl:text-[1.6rem] font-medium'>
               'TECH IT EASY'
             </h2>
@@ -23,26 +23,26 @@ function Prizes() {
         </div>
       </div>
       <div className='flex flex-col justify-center items-center backdrop-blur-lg bg-black/30'>
-        <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-full h-full  items-center p-2'>
-          <div className='w-full h-full flex flex-col justify-center items-center text-white bg-transparent p-2 cursor-pointer'>
+        <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-full h-full  items-center px-2 py-5'>
+          <div className='w-full h-full flex flex-col justify-center items-center text-white bg-transparent p-2 cursor-pointer border-2'>
             <h2 className='text-xl font-semibold p-[2%]'>Winner</h2>
             <h1 className='text-[2rem] font-black'>₹ 15,000 *</h1>
             <p className='text-[.5rem] lg:text-[.8rem]'>+Goodies worth upto</p>
             <p>₹ 1 Lakh</p>
           </div>
-          <div className='w-full h-full flex flex-col justify-center items-center text-white bg-transparent p-2 cursor-pointer'>
+          <div className='w-full h-full flex flex-col justify-center items-center text-white bg-transparent p-2 cursor-pointer border-2'>
             <h2 className='text-xl font-semibold p-[2%]'>Winner</h2>
             <h1 className='text-[2rem] font-black'>₹ 15,000 *</h1>
             <p className='text-[.5rem] lg:text-[.8rem]'>+Goodies worth upto</p>
             <p>₹ 1 Lakh</p>
           </div>
-          <div className='w-full h-full flex flex-col justify-center items-center text-white bg-transparent p-2 cursor-pointer'>
+          <div className='w-full h-full flex flex-col justify-center items-center text-white bg-transparent p-2 cursor-pointer border-2'>
             <h2 className='text-xl font-semibold p-[2%]'>Winner</h2>
             <h1 className='text-[2rem] font-black'>₹ 15,000 *</h1>
             <p className=' text-[.5rem] lg:text-[.8rem]'>+Goodies worth upto</p>
             <p>₹ 1 Lakh</p>
           </div>
-          <div className='w-full h-full flex flex-col justify-center items-center text-white bg-transparent p-2 cursor-pointer'>
+          <div className='w-full h-full flex flex-col justify-center items-center text-white bg-transparent p-2 cursor-pointer border-2'>
             <h2 className='text-xl font-semibold p-[2%]'>Winner</h2>
             <h1 className='text-[2rem] font-black'>₹ 15,000 *</h1>
             <p className='text-[.5rem] lg:text-[.8rem]'>+Goodies worth upto</p>

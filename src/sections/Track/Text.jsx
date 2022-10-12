@@ -5,9 +5,7 @@ const Text = () => {
         <div className='textContainer  z-50 flex flex-col gap-10 justify-center'>
            
              <div className='w-full  h-full flex flex-col justify-center items-center lg:items-start text-white bg-transparent cursor-pointer space-y-4 p-4'>
-            <h2 className='text-[1.2rem] lg:text-[1.3rem] xl:text-[1.6rem] font-medium'>
-              'TECH IT EASY'
-            </h2>
+           
             <h1 className='text-4xl lg:text-5xl xl:text-6xl font-normal text-transparent bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inline-block bg-clip-text'>
               Tracks
             </h1>
