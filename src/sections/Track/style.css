@@ -17,11 +17,7 @@
 .dash{
     background: linear-gradient(90deg,#9796f0,#fbc7d4);
 }
-@media screen and (max-width: 1148px){
-    .textContainer{
-        padding: 100px 100px;
-    }
-}
+
 @media screen and (max-width:989px){
     .textContainer{
         display: flex;
@@ -51,16 +47,11 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
-@media screen and (max-width:994px){
-    .textContainer{
-        padding: 50px 20px;
-        min-height: 80vh;
-    }
-}
+
 @media screen and (max-width:594px){
     .textContainer{
         padding: 50px 20px;
-        min-height: 80vh;
+    
     }
     .title{
         text-align: left !important;
@@ -83,7 +74,7 @@
     
 }
 .cardsContainer{
-    max-width: 44vw;
+   
     max-height: 73vh;
 }
 .cardsContainer::-webkit-scrollbar {
@@ -136,7 +127,7 @@ scrollbar-width: none;  /* Firefox */
         display: flex;
         overflow: scroll;
         border: none;
-        max-width: 52vw;
+      
     }
     .cardsContainer::-webkit-scrollbar {
             display: none;

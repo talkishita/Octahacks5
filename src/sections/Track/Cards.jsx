@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cards = () => {
     return (
-        <div className='mainCards py-24'>
+        <div className='mainCards py-24 flex items-center justify-center'>
             <div className='cardsContainer border border-neutral-500 overflow-scroll'>
                 {/* Cards 1  */}
                 <div className='cards flex justify-center align-top'>

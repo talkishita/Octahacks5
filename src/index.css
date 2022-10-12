@@ -7,9 +7,7 @@
   src: local('Azonix'), url('./assets/Azonix.otf') format('truetype');
   font-weight: normal;
 }
-* {
-  border: 1px solid red;
-}
+
 body{
   background-color: rgb(15 23 42);
 }

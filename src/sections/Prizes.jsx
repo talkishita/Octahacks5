@@ -12,7 +12,7 @@ function Prizes() {
             <h1 className='text-4xl lg:text-5xl xl:text-6xl font-normal text-transparent bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inline-block bg-clip-text'>
               Prizes & Rewards
             </h1>
-            <p className='text-[1.2rem] lg:text-[1.3rem] xl:text-[1.5rem] font-light md:text-left text-center'>
+            <p className='text-[1rem] lg:text-[1.2rem] xl:text-[1.4rem] font-light md:text-left text-center'>
               Just to incentivise your hard work and effort over those 36 hours
               we have prizes, cash rewards and more lined up for the top
               performers by our generous Sponsors. Swags and goodies are for
@@ -23,7 +23,7 @@ function Prizes() {
         </div>
       </div>
       <div className='flex flex-col justify-center items-center backdrop-blur-lg bg-black/30'>
-        <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-full h-full justify-center items-center p-2'>
+        <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-full h-full  items-center p-2'>
           <div className='w-full h-full flex flex-col justify-center items-center text-white bg-transparent p-2 cursor-pointer'>
             <h2 className='text-xl font-semibold p-[2%]'>Winner</h2>
             <h1 className='text-[2rem] font-black'>₹ 15,000 *</h1>

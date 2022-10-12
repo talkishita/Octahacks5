@@ -1,7 +1,7 @@
 import React from 'react';
 import AnimatedCursor from 'react-animated-cursor';
 import Judges from './sections/Judges';
-
+import About from './sections/About'
 import Landing from './sections/Landing/Landing';
 import Mentors from './sections/Mentors';
 import Prizes from './sections/Prizes';
@@ -233,6 +233,7 @@ function App() {
       </div>
       <div className='h-full lg:ml-[15%]'>
         <Landing />
+        <About />
         <Tracks />
         <Prizes />
         <Judges />
