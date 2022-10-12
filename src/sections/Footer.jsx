@@ -5,7 +5,7 @@ const Footer = () => {
           <div id='footer' className='min-h-screen bg-slate-900 bg-no-repeat bg-contain p-2'>
       <div className='text-5xl lg:text-6xl xl:text-7xl text-center'>Contact Us</div>
 
-    <div className="footer_section font-azonix flex flex-row justify-between w-4/5">
+    <div className="footer_section font-azonix flex flex-row justify-between w-full h-full">
       <div class="footer_section_1">
         <div class="footer_section_1_content">
           <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.chitkara.edu.in%2Fwp-content%2Fthemes%2Fchitkara%2Fimages%2FCU_logo.png&f=1&nofb=1&ipt=73285697f123d5332b2fc6459189124b501093459305c9bf57dee8acfe851f7b&ipo=images" />
@@ -34,8 +34,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div class="footer_section_2" id="footer">
+      <div class="footer_section_2 flex items-center justify-center" id="footer">
         <div class="social_icons">
+          <div className="flex items-center justify-center">
           <a href="https://www.instagram.com/gdsc_ciet/" target="_blank"
             ><img
             alt='socials'
@@ -56,6 +57,7 @@ const Footer = () => {
           </a>
           <a href="https://twitter.com/gdscciet" target="_blank"
             ><img src="https://img.icons8.com/ios-glyphs/40/ffffff/twitter--v1.png" alt="" srcset="" /></a>
+            </div>
           <p>For more updates,<br />follow us on all social media.</p>
         </div>
       </div>
