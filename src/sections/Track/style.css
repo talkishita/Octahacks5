@@ -1,9 +1,15 @@
 
+.tracksContainer{
+    min-height: 100vh;
+}
+
+
 @media screen and (max-width:989px){
     .tracksContainer{
         flex-direction: column;
     }
 }
+
 /* Left Section Css */
 .textContainer{
     min-width: 20vw;
@@ -11,11 +17,7 @@
 .dash{
     background: linear-gradient(90deg,#9796f0,#fbc7d4);
 }
-@media screen and (max-width: 1148px){
-    .textContainer{
-        padding: 100px 100px;
-    }
-}
+
 @media screen and (max-width:989px){
     .textContainer{
         display: flex;
@@ -49,7 +51,7 @@
 @media screen and (max-width:594px){
     .textContainer{
         padding: 50px 20px;
-        min-height: 80vh;
+    
     }
     .title{
         text-align: left !important;
@@ -72,9 +74,16 @@
     
 }
 .cardsContainer{
-    max-width: 44vw;
-    max-height: 110vh;
+   
+    max-height: 73vh;
 }
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+.scroll {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    }
 .cardsContainer::-webkit-scrollbar {
     display: none;
 }
@@ -100,7 +109,7 @@ scrollbar-width: none;  /* Firefox */
     
 }
 .cards img{
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
     margin-right: 20px;
     padding: 10px;
@@ -125,7 +134,7 @@ scrollbar-width: none;  /* Firefox */
         display: flex;
         overflow: scroll;
         border: none;
-        max-width: 52vw;
+      
     }
     .cardsContainer::-webkit-scrollbar {
             display: none;

@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Azonix';
+  src: local('Azonix'), url('./assets/Azonix.otf') format('truetype');
+  font-weight: normal;
+}
+
+body{
+  background-color: rgb(15 23 42);
+}
+
+@layer utilities {
+  html::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }}

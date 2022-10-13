@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cards = () => {
     return (
-        <div className='mainCards py-24'>
+        <div className='mainCards py-24 flex items-center justify-center'>
             <div className='cardsContainer border border-neutral-500 overflow-scroll'>
                 {/* Cards 1  */}
                 <div className='cards flex justify-center align-top'>
@@ -27,7 +27,7 @@ const Cards = () => {
                 </div>
                 {/* cards 1 end  */}
                 {/* Cards 2  */}
-                <div className='cards flex justify-center align-top'>
+                <div className='cards flex  flex-row-reverse justify-center align-top'>
                     <div className="leftSection w-1/2 pt-9 pr-12 pb-11 pl-10">
                         <div className='safeDiv flex align-middle justify-start gap-28'>
                             <p className="titlePara">Security</p>
@@ -39,9 +39,12 @@ const Cards = () => {
                             technologies is also driving an increase in
                             the advancement of the need for proper
                             security systems.</p>
+                            {/* <br/>
+                            <br></br>
+                            <br/> */}
                     </div>
-                    <div>
-                        <img src={require("../../assets/2nd.png")} alt='image1' />
+                    <div className=''>
+                        <img src={require("../../assets/safeguard.png")} alt='image1' />
                     </div>
                 </div>
                 {/* cards 2 end  */}
@@ -64,7 +67,7 @@ const Cards = () => {
                 </div>
                 {/* cards 3 end  */}
                 {/* Cards 4  */}
-                <div className='cards flex justify-center align-top'>
+                <div className='cards flex revCard  flex-row-reverse justify-center align-top'>
                     <div className="leftSection w-1/2 pt-9 pr-12 pb-11 pl-10">
                         <div className='safeDiv flex align-middle justify-start gap-24'>
                             <p className="titlePara">health</p>
@@ -105,7 +108,7 @@ const Cards = () => {
                 </div>
                 {/* cards 5 end  */}
                 {/* Cards 6  */}
-                <div className='cards flex justify-center align-top'>
+                <div className='cards flex revCard  flex-row-reverse justify-center align-top'>
                     <div className="leftSection w-1/2 pt-9 pr-12 pb-11 pl-10">
                         <div className='safeDiv flex align-middle justify-start gap-24'>
                             <p className="titlePara">Woman security</p>
@@ -143,7 +146,7 @@ const Cards = () => {
                 </div>
                 {/* cards 7 end  */}
                 {/* Cards 8  */}
-                <div className='cards flex justify-center align-top'>
+                <div className='cards flex revCard  flex-row-reverse justify-center align-top'>
                     <div className="leftSection w-1/2 pt-9 pr-12 pb-11 pl-10">
                         <div className='safeDiv flex align-middle justify-start gap-24'>
                             <p className="titlePara">education</p>
