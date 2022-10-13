@@ -6,7 +6,7 @@ const Sponsers = () => {
     <div id="sponsors" className='sm:flex-col flex https://github.com/ikaushiksharma/WhatsApp_Ui/blob/master/backVideo.gif?raw=true bg-contain bg-no-repeat flex-wrap'>
 
 {/* left div----------------------------------------------------------------------------------------- */}
-      <div className=' h-screen backdrop-blur-lg flex-col md:flex-row flex text-center items-center justify-center '>
+      <div className=' md:h-screen backdrop-blur-lg flex-col md:flex-row flex text-center items-center justify-center '>
       <div className='w-full'>
         <div className='font-semibold text-5xl text-white pb-4'><h1>Our <span className='font-semibold text-5xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Awesome </span>Sponsors</h1></div>
         <div className='text-white'>While all our participants make our event lively. it is our very amazing  <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'> sponsors </span>that <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>make it possible</span></div>
