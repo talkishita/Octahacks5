@@ -8,7 +8,7 @@ const Sponsers = () => {
 {/* left div----------------------------------------------------------------------------------------- */}
       <div className='backdrop-blur-lg flex-col md:flex-row flex text-center items-center justify-center'>
       <div className='w-full'>
-        <div className='font-semibold text-5xl text-white '><h1>Our <span className='font-semibold text-5xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Awesome </span>Sponsors</h1></div>
+        <div className='font-semibold text-5xl text-white pb-4'><h1>Our <span className='font-semibold text-5xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Awesome </span>Sponsors</h1></div>
         <div className='text-white'>While all our participants make our event lively. it is our very amazing  <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'> sponsors </span>that <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>make it possible</span></div>
       </div>
       
@@ -26,8 +26,8 @@ const Sponsers = () => {
           {/* Platinum Sponsors Images-------------------------------------------------------------------- */}
 
           <div className='flex justify-evenly mt-6 flex-wrap items-center'>
-            <img src={require("../assets/Sponsors/devfolio.svg").default} alt="devfolio" className='h-8 inline' />
-            <img src={require("../assets/Sponsors/polygon.svg").default} alt="" className='h-8' />
+            <img src={require("../assets/Sponsors/devfolio.svg").default} alt="devfolio" className=' w-36 h-auto inline' />
+            <img src={require("../assets/Sponsors/polygon.svg").default} alt="" className='w-36 h-auto' />
             </div>
           </div>
 
@@ -40,10 +40,10 @@ const Sponsers = () => {
 
             {/* Gold Sponsors Images ----------------------------------------------------------------*/}
             <div className='flex justify-evenly mt-6 flex-wrap items-center'>
-            <img src={require("../assets/Sponsors/Filecoin.png")} alt="devfolio" className='h-14 inline' />
-            <img src={require("../assets/Sponsors/tezos.svg").default} alt="" className='h-12' />
-            <img src={require("../assets/Sponsors/celo.png")} alt="" className='h-12' />
-            <img src={require("../assets/Sponsors/axure.png")} alt="" className='h-10' /></div></div>
+            <img src={require("../assets/Sponsors/Filecoin.png")} alt="devfolio" className='w-36 h-auto inline' />
+            <img src={require("../assets/Sponsors/tezos.svg").default} alt="" className='w-36 h-auto' />
+            <img src={require("../assets/Sponsors/celo.png")} alt="" className='w-36 h-auto' />
+            <img src={require("../assets/Sponsors/axure.png")} alt="" className='w-36 h-auto' /></div></div>
 
 
 
@@ -52,9 +52,9 @@ const Sponsers = () => {
 
             {/* Premium Sponsors Images ---------------------------------------------------------------- */}
           <div className='flex justify-evenly mt-6 flex-wrap items-center'>
-            <img src={require("../assets/Sponsors/solanaLogo.png")} alt="devfolio" className='h-8 inline' />
-            <img src={require("../assets/Sponsors/airmeet.png")} alt="" className='h-8' />
-            <img src={require("../assets/Sponsors/sashido.png")} alt="" className='h-8' /></div></div>
+            <img src={require("../assets/Sponsors/solanaLogo.png")} alt="devfolio" className='w-36 h-auto inline' />
+            <img src={require("../assets/Sponsors/airmeet.png")} alt="" className='w-36 h-auto' />
+            <img src={require("../assets/Sponsors/sashido.png")} alt="" className='w-36 h-auto' /></div></div>
           </div>
 
       </div>
