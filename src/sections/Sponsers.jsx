@@ -20,7 +20,7 @@ const Sponsers = () => {
 
           {/* Platinum Sponsors --------------------------------------------------------------------------*/}
 
-          <div className='bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg min-h-[50px] rounded-lg shadow-x overflow-hidden flex-auto m-4 h-36  w-full'>
+          <div className='bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg min-h-[50px] rounded-lg shadow-x overflow-hidden flex-auto m-4 h-auto  w-full pb-4'>
             <div><h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 mt-4'>Platinum Sponsors</h1></div>
 
           {/* Platinum Sponsors Images-------------------------------------------------------------------- */}
@@ -34,7 +34,7 @@ const Sponsers = () => {
 
             {/* Gold Sponsors ----------------------------------------------------------------------------*/}
 
-            <div className='bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg min-h-[50px] rounded-lg shadow-x overflow-hidden flex-auto m-4 h-48 w-full'>
+            <div className='bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg min-h-[50px] rounded-lg shadow-x overflow-hidden flex-auto m-4 h-auto w-full pb-4 '>
               <div>
                 <h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 mt-4'>Gold Sponsors</h1></div>
 
@@ -48,7 +48,7 @@ const Sponsers = () => {
 
 
             {/* Premium Sponsors ------------------------------------------------------------------------ */}
-            <div className='bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg min-h-[50px] rounded-lg shadow-x overflow-hidden flex-auto m-4 h-40 w-full'><div><h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 mt-4'>Premium Sponsors</h1></div>
+            <div className='bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg min-h-[50px] rounded-lg shadow-x overflow-hidden flex-auto m-4 h-auto w-full pb-4'><div><h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 mt-4'>Premium Sponsors</h1></div>
 
             {/* Premium Sponsors Images ---------------------------------------------------------------- */}
           <div className='flex justify-evenly mt-6 flex-wrap items-center'>
