@@ -2,7 +2,7 @@ import React from 'react'
 // p-24 mt-28
 const Text = () => {
   return (
-    <div className='textContainer  flex flex-col gap-10 justify-center'>
+    <div className='textContainer flex-1 flex flex-col md:gap-10 justify-center'>
 
       <div className='w-full  h-full flex flex-col justify-center items-center lg:items-start text-white bg-transparent cursor-pointer space-y-4 p-4'>
 
